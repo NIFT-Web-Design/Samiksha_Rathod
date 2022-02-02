@@ -23,7 +23,7 @@ header #menubox a#blueBox {
 border-radius: 2px
 }
 
-#menubox a#orangehighlight {
+#menubox a  #orangehighlight {
 color: orange
 }
 
@@ -67,7 +67,7 @@ h2 {
 
 div > p {
  color: #7f969e;
- font-size: 16px;
+ font-size: 24px;
  text-align: center;
  max-width: 856;
  margin: auto;
@@ -88,12 +88,13 @@ div > p {
     justify-content: center;
     gap: 32px;
     background-color: #EDEff3;
-
-  }
+padding-top: 60px;
+ }
 .varietyservicebox article {
   box-shadow: 0px 3px 8px 0px rgb(0 0 0 /20% );
   width: 260px;
   background-color: white;
+
 }
   .varietyservicebox article h3 {
     background-color: #0a465b;
@@ -150,8 +151,8 @@ section .varietyservice h2 {
 
  }
  .centerpara1  {
-  display: inline-block;
-
+  display: inline-flex;
+  flex-wrap: wrap;
   max-width: 350px;
   margin-top: 30px;
   margin-left: 30px;
@@ -186,6 +187,7 @@ div.Specializationsbox {
   display: flex;
   justify-content: center;
   gap: 32px;
+  padding-top: 40px;
   }
 
 .Specializationsbox article {
@@ -229,18 +231,20 @@ padding: 10px 0px 30px 0px;
 
 .weserve .leftrighttouchcontact {
   margin: 0 162px;
+  padding-left: 250px;
   display: inline-block;
   position: relative;
   }
 
 .imgline {
-  display: block;
+  display: inline-block;
 }
 
-.leftrighttouchcontact .contactusbox {
+.leftrighttouchcontact #contactusbox {
   display: inline-block;
   margin-left: 50px;
   margin-top: 20px;
+
   }
 
 #phoneimg {
@@ -292,40 +296,40 @@ padding: 10px 0px 30px 0px;
   padding-top: 25px;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-div.apps {
-  border-radius: 50%;
+.apps #linkedin, #twitter, #facebook  {
+  border: 5px solid #dfdfe0;
+  border-radius: 50px;
   margin: 0 12px;
-}
+  }
 
 
 
 
 
 
-.weserve varietyservice .trustedimg img {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.varietyservice .trustedimg img {
   margin: auto;
-  padding-left: 60px;
+  padding-left: 600px;
   height: 90px;
+  padding-top: 30px;
 }
 
 
