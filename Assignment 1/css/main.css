@@ -48,7 +48,7 @@ width: 100;
   padding: 50px 0px 70px;
 }
 
-.weserve div {
+.weserve .commonclassdiv {
   max-width: 1150px;
   margin: auto;
   }
@@ -57,7 +57,7 @@ p {
 }
   /* common h2 styling */
 
-.variety h2 {
+h2 {
   font-size: 44px;
   color: #0a465b;
   text-align: center;
@@ -144,24 +144,38 @@ section .varietyservice h2 {
 
   /* felxibiity centerpara styling */
 
-  .centerpara1 {
-    font-family: BrandonText-Bold;
-    font-size: 22px;
-    color: #0a465b
-    border-bottom: 2px #FDB530 solid;
-    text-align: center;
-    width: 80%;
-    margin: auto;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    max-width: 350px;
-    text-align: center;
-    float: left;
-    margin-top: 30px;
-    margin-right: 50px;
+ section.weserve .centeralign6 {
+   margin: 0 300px;
+   padding-left: 140px;
+
+ }
+ .centerpara1  {
+  display: inline-block;
+
+  max-width: 350px;
+  margin-top: 30px;
+  margin-left: 30px;
+  box-sizing: border-box;
 }
 
+  .centerpara1 .para1 h3 {
+    font-size: 24px;
+    color: #0a465b;
+    text-align: center;
+    font-variant: small-caps;
+    border-bottom: 2px solid #FDB530;
+    padding: 7px 0;
+    margin: auto;
+    width: 80%;
+  }
 
+.centerpara1 .para1  p {
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #7f969e;
+  }
 
 
 
@@ -173,7 +187,7 @@ div.Specializationsbox {
   justify-content: center;
   gap: 32px;
   }
-  
+
 .Specializationsbox article {
 box-shadow: 0px 3px 8px 0px rgb(0 0 0 /20% );
 width: 260px;
@@ -203,4 +217,130 @@ section .Specializationsbox  h2 {
   padding: 70px 40px;;
   vertical-align: baseline;
   text-align: center;
+}
+
+/*get in touch contactus */
+
+.getintouch {
+color: #0a465b;
+text-align: center;
+padding: 10px 0px 30px 0px;
+}
+
+.weserve .leftrighttouchcontact {
+  margin: 0 162px;
+  display: inline-block;
+  position: relative;
+  }
+
+.imgline {
+  display: block;
+}
+
+.leftrighttouchcontact .contactusbox {
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 20px;
+  }
+
+#phoneimg {
+  margin-left: 130px;
+  border-radius: 50%;
+  border: 8px solid rgba(253, 181, 48, 0.7);
+  position: relative;
+  bottom: 50px;
+  left: 140px;
+}
+
+#help {
+  width: 260px;
+    font-size: 18px;
+    color: #7f969e;
+    text-align: center;
+    border-top: 1px solid #107698;
+    border-bottom: 1px solid #107698;
+    padding: 10px 0;
+    display: inline-block;
+    margin-top: 16px;
+    position: relative;
+    bottom: 10px;
+    right: 100px;
+    line-height: 1.4;
+}
+
+#contactusbox a .contact {
+  width: 165px;
+  font-size: 24px;
+  text-transform: capitalize;
+  color: white;
+  padding: 15px 0px 15px 50px;
+  background-color: #107698;
+  border: 2px solid #FDB530;
+  border-radius: 4px;
+  box-shadow: 0px 3px 5px 0px rgb(0 0 0 / 50%);
+  transition: 0.2s;
+  position: relative;
+  margin-left: 65px;
+  display: inline-block;
+}
+
+#contactusbox .apps {
+  min-width: 350px;
+  text-align: center;
+  border-top: 4px solid #dfdfe0;
+  margin-top: 35px;
+  padding-top: 25px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.apps {
+  border-radius: 50%;
+  margin: 0 12px;
+}
+
+
+
+
+
+
+.weserve varietyservice .trustedimg img {
+  margin: auto;
+  padding-left: 60px;
+  height: 90px;
+}
+
+
+
+
+
+
+
+
+footer {
+  background-color: #504f4f;
+  display: block;
+  width: 100%;
+  line-height: 1.4;
+  color: #c7c5c5;
+  text-align: center;
+  padding: 40px 0;
 }
