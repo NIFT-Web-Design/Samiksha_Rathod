@@ -1,0 +1,283 @@
+*{
+  box-sizing: border-box;
+  /* background: #685149; */
+}
+
+#navigation-container {
+  width: 100%;
+  margin: 0 auto;
+  height: 70px;
+  padding: 5px 15px 10px;
+}
+  
+.navigation-bar {
+  height: 70px;
+  width: 100%;
+  text-align:end;
+  background: #685149;
+}
+
+.navigation-bar img{
+  float:left;
+  height: 53px;
+  width: 103px;
+  margin-top: 5px;
+}
+
+.navigation-bar ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:contents;
+  vertical-align:top;
+}
+  
+.navigation-bar li {
+  list-style-type: none;
+  padding: 0px;
+  height: 24px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  display: inline;
+}
+.button-center{
+  align-items: center;
+  margin-left: 200px;
+}
+.navigation-bar li a {
+  color: white;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 5px 15px;
+  opacity: 0.7;
+}
+
+.card {
+  background: #896B60;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.card h2{
+  background: #896B60;
+}
+.card p{
+  background: #896B60;
+}
+.card li{
+  background: #896B60;
+  color: white;
+  font-size: 20px;
+}
+.card2 {
+  background-color: #7e6257;
+  padding: 20px;
+  margin-top: 10px;
+}
+.card2 li{
+  background: #7e6257;
+  color: white;
+  font-size: 20px;
+}
+.card2 h2{
+  background: #7e6257;
+}
+.card2 p{
+  background: #7e6257;
+}
+  
+/* .navigation-bar li a:last-child{
+  background: #e74c3c;
+  border-radius: 5px;
+} */
+
+.navigation-bar li a:hover{
+  background: #e74c3c;
+  border-radius: 5px;
+  transition: 0.4s linear;
+}
+
+.line{
+  position: absolute;
+  top: 22%;
+  left: 8%;
+}
+
+.box1{
+    width: 10px; height: 10px; background: black;
+}
+
+.box2{
+  width: 60px; height: 2px; background: black;
+}
+
+.box3{
+  width: 100px; height: 2px; background: black;
+}
+
+.container{
+  width: 100;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 10px;
+  background-color: #a88b80;
+}
+ 
+.left{
+  flex-basis: 40%;
+  background-color: #a88b80;
+  margin-left: 90px;
+}
+
+.right{
+  float: right;
+  height: 100%;
+  margin-top: 20px;
+}
+
+.left h1{
+  font-size: 4.5rem;
+  background-color: #a88b80;
+}
+
+.left button{
+  background: #e74c3c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+h1 {
+  font-weight: 300;
+  background-position: center;
+  color: #ffff;
+  font-size: 80px;
+  text-shadow: 1px 2px 2px #000;
+  text-align: center;
+  padding: 70px 0;
+  width: 100;
+}
+
+
+h2 {
+  font-size: 30px;
+  color: #ffff;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 10px;
+}
+
+div > p {
+  color: #ffff;
+  font-size: 20px;
+  text-align: justify;
+  max-width: 856;
+  margin: auto;
+  padding: 10px 50px 0px 50px;;
+  line-height: 1.4;
+  height: 100%;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+.footer-dark {
+  padding:50px 0;
+  color:#f0f9ff;
+  background-color:#282d32;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+.footer-dark .item.social {
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}
