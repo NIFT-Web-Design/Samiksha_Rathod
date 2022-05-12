@@ -9,7 +9,7 @@
   height: 70px;
   padding: 5px 15px 10px;
 }
-  
+
 .navigation-bar {
   height: 70px;
   width: 100%;
@@ -31,7 +31,7 @@
   display:contents;
   vertical-align:top;
 }
-  
+
 .navigation-bar li {
   list-style-type: none;
   padding: 0px;
@@ -87,7 +87,7 @@
 .card2 p{
   background: #7e6257;
 }
-  
+
 /* .navigation-bar li a:last-child{
   background: #e74c3c;
   border-radius: 5px;
@@ -126,7 +126,7 @@
   margin-top: 10px;
   background-color: #a88b80;
 }
- 
+
 .left{
   flex-basis: 40%;
   background-color: #a88b80;
